@@ -111,7 +111,7 @@
         <bouncycastle.version>1.54</bouncycastle.version>
         <slf4j.version>1.7.21</slf4j.version>
         <spring.version>3.2.17.RELEASE</spring.version>
-        <jgit.version>3.4.1.201406201815-r</jgit.version>
+        <jgit.version>5.13.3.202401111512-r</jgit.version>
         <junit.version>4.12</junit.version>
         <surefire.plugin.version>2.19.1</surefire.plugin.version>
         <httpcomps.version>4.4.1</httpcomps.version>
@@ -429,7 +429,7 @@
                 <plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>animal-sniffer-maven-plugin</artifactId>
-                    <version>1.15</version>
+                    <version>1.23</version>
                     <configuration>
                         <signature>
                             <groupId>org.codehaus.mojo.signature</groupId>

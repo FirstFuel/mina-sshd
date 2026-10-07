@@ -43,4 +43,9 @@ public class GitSshdSessionFactory extends SshSessionFactory {
             throw new TransportException("Unable to connect", e);
         }
     }
+
+    @Override
+    public String getType() {
+        return "sshd";
+    }
 }
