@@ -980,11 +980,6 @@ The _apache-sshd.zip_ distribution provides `Windows/Linux` scripts that use the
 
 The distribution also includes also an _sshd_ script that can be used to launch a server instance - see `SshServer#main` for activation command line arguments and options.
 
-## GIT support
-
-The _sshd-git_ artifact contains server-side command factories for handling some _git_ commands - see `GitPackCommandFactory` and `GitPgmCommandFactory`. These command factories accept a delegate to which non-_git_ commands are routed:
-
-
 ```java
 
     sshd.setCommandFactory(new GitPackCommandFactory(rootDir, new MyCommandFactory()));
